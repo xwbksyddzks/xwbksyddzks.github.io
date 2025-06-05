@@ -1,0 +1,78 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f9fbfd;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+.header-row {
+  width: 100%;
+  background-color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-align: left;  /* logo 左对齐 */
+}
+
+.header-row img {
+  height: 150px;      /* 缩小 logo */
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.0);  /* 背景设为完全透明 */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: none;  /* 取消阴影，如果你还想更干净 */
+  border: none;      /* 明确无边框 */
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card_leader {
+  background: rgba(255, 255, 255, 0.0);  /* 背景设为完全透明 */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: none;  /* 取消阴影，如果你还想更干净 */
+  border: none;      /* 明确无边框 */
+}
+
+.card_leader img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card_leader h3 {
+  font-size: 24px;  /* 可以根据需要调整，如26px、28px等 */
+  font-weight: bold;
+}
